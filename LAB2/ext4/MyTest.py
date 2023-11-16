@@ -2,14 +2,15 @@ import os
 import platform
 import socket
 import subprocess
-import psutil
-import sys
-import argparse
 
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QApplication, QLabel, QPushButton, QVBoxLayout, QWidget
-
+try:
+    subprocess.check_call(["sudo", "apt-get", "update"])
+    subprocess.check_call(["sudo", "apt-get", "install", "-f"])
+    subprocess.check_call(["sudo", "apt-get", "install", "python3-pip"])
+    subprocess.check_call(["sudo", "pip3", "install", "psutil"])
+    subprocess.check_call(["sudo", "pip3", "install", "PyQt5"])
+except subprocess.CalledProcessError as e:
+    print(f"Error: {e}")
 
 class HelpWindow(QMainWindow):
     def __init__(self, message):
