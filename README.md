@@ -44,15 +44,16 @@
 
 ## Installation
 
-[!!]# "Please remeber to edit ~/.bashrc
+## Please remeber to edit ~/.bashrc
 
-#!/bin/bash
+!/bin/bash
 sudo apt-get update
 sudo apt-get install -f
 sudo apt-get install python3-pip
 sudo pip3 install psutil
-sudo pip3 install PyQt5"
+sudo pip3 install PyQt5
 
-#In Linux environment you can use also terminal instead using console ! 
-#HOW TO OPEN THE APP ? JUST DOUBLE CLICK ON APP IMAGE
+### In Linux environment you can use also terminal instead using console ! 
+### Windows application also have the same functionality (CMD), please use python3 first.  
+## HOW TO OPEN THE APP ? JUST DOUBLE CLICK ON APP IMAGE
 
