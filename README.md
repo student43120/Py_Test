@@ -30,5 +30,5 @@ sudo pip3 install psutil
 sudo pip3 install PyQt5"
 
 #In Linux environment you can use also terminal instead using console ! 
-#HOW TO OPEN A APP ? JUST DOUBLE CLICK ON APP IMAGE
+#HOW TO OPEN THE APP ? JUST DOUBLE CLICK ON APP IMAGE
 
