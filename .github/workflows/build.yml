@@ -23,11 +23,11 @@ jobs:
     
 
       - name: Build executable
-        run: |
+        run: student43120/Py_Test/LAB2/build/MyTest
         
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: mytest-executable
-          path: 
+          path: student43120/Py_Test/LAB2/console/my_test.exe
