@@ -21,13 +21,15 @@ jobs:
         with:
           python-version: '3.x' 
 
-   
+      - name: Install dependencies
+        run: pip install -r requirements.txt 
+  
       - name: Run unit tests
-        run: |
+        run: python -m unittest test_MyTest.py
         
       - name: Build executable
-        run: |
+        run: pythone3 os_installer.sh 
          
       - name: Test the executable
-        run: |
+        run: test_MyTest.py
         
