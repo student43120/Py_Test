@@ -1,0 +1,33 @@
+name: Automatyczne testowanie
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 12 * * 5"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' 
+
+   
+      - name: Run unit tests
+        run: |
+        
+      - name: Build executable
+        run: |
+         
+      - name: Test the executable
+        run: |
+        

@@ -1,0 +1,33 @@
+name: Automatyczne budowanie
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 8 * * 5" 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.2'
+    
+
+      - name: Build executable
+        run: |
+        
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: mytest-executable
+          path: 
