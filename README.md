@@ -1,4 +1,4 @@
-# Project Title
+# MyTest appliaction
 
 [//]: # "Project is based on Studies in DSW Univeristy"
 
@@ -20,7 +20,7 @@
 
 ## Installation
 
-[//]# "Please remeber to edit ~/.bashrc
+[Installation]# "Please remeber to edit ~/.bashrc
 
 #!/bin/bash
 sudo apt-get update
