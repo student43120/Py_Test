@@ -20,7 +20,7 @@
 
 ## Installation
 
-# "Please remeber to edit ~/.bashrc
+[//]# "Please remeber to edit ~/.bashrc
 
 #!/bin/bash
 sudo apt-get update
