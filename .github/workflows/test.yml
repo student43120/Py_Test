@@ -28,8 +28,8 @@ jobs:
         run: python -m unittest test_MyTest.py
         
       - name: Build executable
-        run: pythone3 os_installer.sh 
+        run: python3 os_installer.sh 
          
       - name: Test the executable
-        run: test_MyTest.py
+        run: python test_MyTest.py
         
