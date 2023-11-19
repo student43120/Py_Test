@@ -3,26 +3,28 @@
 [//]: # "Project is based on Studies in DSW Univeristy"
 
 #Schema of Maciej 43125 app
+.
 ├── build
-│   └── main
-│       ├── Analysis-00.toc
-│       ├── base_library.zip
-│       ├── EXE-00.toc
-│       ├── localpycs
-│       │   ├── pyimod01_archive.pyc
-│       │   ├── pyimod02_importers.pyc
-│       │   ├── pyimod03_ctypes.pyc
-│       │   └── struct.pyc
-│       ├── main.pkg
-│       ├── PKG-00.toc
-│       ├── PYZ-00.pyz
-│       ├── PYZ-00.toc
-│       ├── warn-main.txt
-│       └── xref-main.html
+│   └── main
+│       ├── Analysis-00.toc
+│       ├── base_library.zip
+│       ├── EXE-00.toc
+│       ├── localpycs
+│       │   ├── pyimod01_archive.pyc
+│       │   ├── pyimod02_importers.pyc
+│       │   ├── pyimod03_ctypes.pyc
+│       │   └── struct.pyc
+│       ├── main.pkg
+│       ├── PKG-00.toc
+│       ├── PYZ-00.pyz
+│       ├── PYZ-00.toc
+│       ├── warn-main.txt
+│       └── xref-main.html
 ├── dist
-│   └── main
+│   └── main
 ├── main.py
 └── main.spec
+
 
 
 ## Description
