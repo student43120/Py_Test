@@ -1,9 +1,8 @@
-## MyTest appliaction
+# MyTest appliaction
 
-[//]: # "Project is based on Studies in DSW Univeristy"
-
-#Schema of Maciej 43125 app
-.
+## Project is based on Studies in DSW University 
+### I would like to present schema of Maciej 43125 app
+```
 ├── build
 │   └── main
 │       ├── Analysis-00.toc
@@ -24,7 +23,7 @@
 │   └── main
 ├── main.py
 └── main.spec
-
+```
 
 
 ## Description
